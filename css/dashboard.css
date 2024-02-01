@@ -1,0 +1,69 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding: 30px 0;
+}
+header h3{
+    color: var(--color-primary);
+    font-size: 1.6rem;
+}
+header button , a{
+    text-decoration: none;
+    border: none;
+    color: black;
+    background-color: white;
+    padding: 10px 15px ;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+header button:hover , a:hover{
+    background-color: black;
+    color: white;
+}
+header i{
+    margin-left:10px ;
+}
+header button{
+    color: var(--color-error);
+    margin-left: 20px;
+}
+
+.user-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 0;
+    padding: 20px 0;
+    background-color: white;
+    border-radius: 10px;
+}
+.user-info{
+    background: var(--color-background);
+    padding: 20px;
+    border-radius: 7px;
+}
+.user-info p{
+    color: var(--color-primary);
+ margin-bottom: 10px;   
+}
+.user-info i{
+margin-right: 7px;
+}
+.user-info h4{
+    font-weight: 500;
+}
+.number{
+   display: inline-block;
+   width: 40px;
+   height: 40px;
+   color: white;
+   font-size: 1.1rem;
+   font-weight: 600;
+    background-color:var(--color-primary);
+    text-align: center;
+    border-radius: 3px;
+    padding-top: 10px;
+}

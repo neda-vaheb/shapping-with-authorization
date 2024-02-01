@@ -93,3 +93,77 @@ header h3{
     background-color: var(--color-secondary);
     border-radius: 5px;
 }
+#products{
+    width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+  
+  
+  
+  }
+  .product{
+      width: 250px;
+      background-color: white;
+      padding:15px;
+      border-radius: 10px;
+      box-shadow: 1px 2px 5px silver;
+      margin-bottom: 20px;
+      position: relative;
+  
+  }
+  .product img{
+      width: 220px;
+      height:220px ;
+      margin: 50px 0 40px;
+  }
+  .star-user {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .star-user button{
+      position: absolute;
+      top: 15px;
+      color:var(--color-warning);
+      border: none;
+      background-color: var(--color-background);
+      padding: 5px 7px;
+      border-radius: 3px;
+  }
+  .star-user button:last-child{
+      right:15px;
+      color: var(--color-error);
+  }
+  .star-user button i{
+      margin-right: 4px;
+  }
+  #info p{
+      color: var(--color-primary);
+      font-weight: 600;
+      font-size: 1.1rem;
+   
+  }
+  #info div{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 30px 0 10px;
+  }
+  #info .price{
+      color: gray;
+  }
+  #info div button{
+      border: none;
+      background-color: var(--color-secondary);
+      color: var(--color-primary);
+      padding: 5px 10px;
+      border-radius: 3px;
+      transition: all 0.3S ease;
+  
+  }
+  #info div button:hover{
+      background-color: var(--color-primary);
+      color: white;
+  }
