@@ -1,0 +1,95 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+header h3{
+    color: var(--color-primary);
+    font-size: 1.6rem;
+}
+#dashboard , #login{
+    background-color: white;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+#dashboard i , #login i{
+    margin-right: 10px;
+}
+#dashboard:hover , #login:hover{
+    background-color: black;
+    color: white;
+}
+#search{
+    margin-bottom: 30px;
+}
+#search h1{
+    margin-bottom: 15px;
+}
+#search input{
+    width: 250px;
+    padding: 6px 8px; 
+    border: 1px solid silver;
+    border-radius: 7px;
+    font-size: 1rem;
+}
+#search input:focus{
+    outline: none;
+    color: var(--color-primary);
+    border-color: 1px solid var(--color-primary);
+}
+#search button{
+    cursor: pointer;
+    border: none;
+    padding: 6px;
+    border-radius: 7px;
+    background-color: var(--color-primary);
+    color: white;
+    font-size: 1rem;
+}
+#search button:hover{
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+}
+.container{
+    margin: 80px 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#filter div {
+    width: 200px;
+    color: var(--color-primary);
+}
+#filter i{
+    margin-right: 15px;
+}
+#filter{
+    height: fit-content;
+    border-radius: 15px;
+    background-color: white;
+    padding: 20px 15px 20px 30px;
+    margin-left: 20px;
+}
+
+    
+#filter li{
+    list-style: none;
+    margin: 20px 0;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+#filter li:hover{
+    color: var(--color-primary);
+
+}
+.selected{
+    padding: 8px;
+    color: var(--color-primary);
+    background-color: var(--color-secondary);
+    border-radius: 5px;
+}
